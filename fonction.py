@@ -1,0 +1,5 @@
+a = int(input("Entrez le coefficient a"))
+b = int(input("Entrez le coefficient b"))
+c = int(input("Entrez le coefficient c"))
+print("\n Dérivée: f'(x)={}x+{}".format(2*a,b))
+print("Primitive : F(x) = ({}/3)x^3 + ({}/2)x^2 + {}x + C".format(a,b,c))
